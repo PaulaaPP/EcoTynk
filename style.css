@@ -1,0 +1,89 @@
+/* 
+Theme Name: EcoTynk
+Author: Paula
+Descriptions:Sample webstite for a plastering company
+Version:1.0.0
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+}
+/* new-realization */
+
+/* .galery .elementor-column-wrap {
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin: 20px;
+} */
+
+.elementor-shortcode {
+  margin-bottom: 10%;
+  margin-left: 5%;
+}
+
+/* .elementor-row.galery {
+  background-color: yellowgreen;
+} */
+.galery .image-wrapper img {
+  height: 400px;
+  width: 400px;
+}
+
+/* single-galery */
+
+img.img-fluid.wp-post-image {
+  height: 400px;
+  width: auto;
+}
+
+.elementor-widget-wrap.foto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-left: 100px;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.title p a {
+  text-decoration: none;
+  font-size: 15px;
+  color: gray;
+}
+
+.elementor-widget-container.foto {
+  display: flex;
+  align-content: center;
+  margin: 20px 70px 50px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+  body {
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .elementor-shortcode {
+    margin: 5px;
+  }
+
+  .image-wrapper {
+    margin: 6px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-height: 950px) {
+  .elementor-shortcode {
+    margin: 5px;
+  }
+  .image-wrapper {
+    margin: 6px;
+  }
+}
